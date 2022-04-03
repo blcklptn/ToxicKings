@@ -61,11 +61,11 @@ SKAM, Кидалы, Скамеры | Black list: @SkamTraffic
 def start(message):
     while True:
         first_post_gif = open('gif.gif', 'rb')
-        bot.send_animation("@sdfsdfsgcvxb", first_post_gif, None, caption=first_post_text)
+        bot.send_animation("@ToxicKings_chat", first_post_gif, None, caption=first_post_text)
         first_post_gif.close()
         time.sleep(15)
         second_post_image = open('image.jpg', 'rb')
-        bot.send_photo("@sdfsdfsgcvxb", second_post_image, caption=second_post_text)
+        bot.send_photo("@ToxicKings_chat", second_post_image, caption=second_post_text)
         second_post_image.close()
         time.sleep(10800)
 
