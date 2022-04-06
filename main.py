@@ -1,7 +1,7 @@
 import telebot
 import time
 
-TOKEN = "5233008083:AAEydL8Cfw8WTY_Fsdgb5EqnJ6Dwmvq2b3w"
+TOKEN = "5283537419:AAH8Sk9AOCp6pLmTX23zhg33A-wosCm8nJg"
 
 
 bot = telebot.TeleBot(TOKEN)
@@ -49,7 +49,7 @@ second_post_text = """
 
 Проверенные продавцы | селлеры: @sellerverif
 
-SKAM, Кидалы, Скамеры, Арбитраж police | Black list: @SkamTraffic
+SKAM, Кидалы, Скамеры, Арбитраж Police | Black list: @traficpolice
 
 Все сделки среди участников чата проводятся исключительно с гарантом!
 
@@ -63,7 +63,7 @@ def start(message):
         first_post_gif = open('gif.gif', 'rb')
         bot.send_animation("@ToxicKings_chat", first_post_gif, None, caption=first_post_text)
         first_post_gif.close()
-        time.sleep(15)
+        time.sleep(3600)
         second_post_image = open('image.jpg', 'rb')
         bot.send_photo("@ToxicKings_chat", second_post_image, caption=second_post_text)
         second_post_image.close()
