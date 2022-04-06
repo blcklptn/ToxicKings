@@ -49,7 +49,7 @@ second_post_text = """
 
 Проверенные продавцы | селлеры: @sellerverif
 
-SKAM, Кидалы, Скамеры | Black list: @SkamTraffic
+SKAM, Кидалы, Скамеры, Арбитраж police | Black list: @SkamTraffic
 
 Все сделки среди участников чата проводятся исключительно с гарантом!
 
